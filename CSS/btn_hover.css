@@ -1,0 +1,52 @@
+.btn_section :hover {
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(54, 54, 54);
+}
+.output_section:hover {
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+
+.btn_restart:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(54, 54, 54);
+}
+.btn_change:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(54, 54, 54);
+}
+#btn-calc:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(54, 54, 54);
+}
+
+.btn-light:hover {
+  color: var(--text-dark);
+  background-color: var(--color-light-1);
+}
+.btn_section-light :hover {
+  color: var(--text-dark);
+  background-color: var(--color-light-1);
+}
+
+.output_section-light:hover {
+  background-color: var(--color-light-1);
+}
+/* .btn_calulate_5:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(54, 54, 54);
+}
+.btn_calulate_6:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(54, 54, 54);
+} */

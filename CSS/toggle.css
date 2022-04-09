@@ -1,0 +1,80 @@
+input[type="checkbox"].toggle {
+  opacity: 0;
+  top: -90000px;
+  left: -90000px;
+  position: absolute;
+  display: block;
+}
+
+input[type="checkbox"].toggle + label {
+  display: flex;
+  cursor: pointer;
+  font-size: 29px;
+  align-items: center;
+  font-weight: bold;
+  font-family: "BhuTuka Expanded One", cursive;
+  font-family: "Fredoka One", cursive;
+  font-family: "Hubballi", cursive;
+  font-family: "Staatliches", cursive;
+}
+
+input[type="checkbox"].toggle + label::before {
+  content: "";
+  width: 2em;
+  height: 1em;
+  background-color: var(--toggle-before);
+  border-radius: 1em;
+  margin-right: 0.25em;
+  position: relative;
+  transition: background-color 200ms ease-in-out;
+}
+
+input[type="checkbox"].toggle + label::after {
+  content: "\263E";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 7em;
+  /* z-index: 1; */
+  font-size: 0.65em;
+  width: 1.3em;
+  height: 1.3em;
+  background-color: var(--toggle-inner-before);
+  color: var(--text-dark);
+  border-radius: 1em;
+  margin-right: 0.25em;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+  animation: check-fade 200ms ease-in-out reverse forwards;
+}
+
+input[type="checkbox"].toggle:focus + label::before {
+  outline: 1px solid black;
+}
+
+input[type="checkbox"].toggle:checked + label::after {
+  content: "\2600";
+  color: black;
+  right: 6.75em;
+  background-color: var(--toggle-inner-after);
+  transform: translateX(100%);
+  animation: check-fade 200ms ease-in-out forwards;
+}
+
+input[type="checkbox"].toggle:checked + label::before {
+  background-color: var(--toggle-after);
+}
+
+@keyframes cehck-fade {
+  0% {
+    opacity: 1;
+    content: "\263E";
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    content: "\2600";
+  }
+}

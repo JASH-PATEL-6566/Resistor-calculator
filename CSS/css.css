@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Fredoka+One&family=Hubballi&family=Staatliches&display=swap");
+
+:root {
+  /* varible for dark */
+  --color-dark-1: black;
+  --color-dark-2: rgb(80, 80, 80);
+  --color-dark-3: rgb(99, 99, 99);
+  --color-dark-4: rgb(104, 104, 104);
+  --color-dark-5: #818181;
+  --text-dark: white;
+
+  /* toggle botton */
+  --toggle-before: rgb(146, 146, 146);
+  --toggle-inner-before: rgb(51, 51, 51);
+  --toggle-after: rgb(107, 107, 107);
+  --toggle-inner-after: rgb(211, 211, 211);
+
+  /* variable for light */
+  --color-light-1: rgb(78, 78, 78);
+  --color-light-2: rgb(136, 136, 136);
+  --color-light-3: rgb(163, 163, 163);
+  --color-light-4: rgb(190, 190, 190);
+  --color-light-5: rgb(224, 224, 224);
+  --text-light: black;
+}
+
+.nav {
+  display: flex;
+  background-color: var(--color-dark-1);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-light {
+  background-color: var(--color-light-1);
+}
+
+.header_container {
+  margin-left: 1em;
+}
+
+.mode {
+  color: var(--text-dark);
+  margin-right: 2em;
+  align-items: center;
+}
+
+.mode-light {
+  color: var(--text-light);
+}
+
+/* input[type="checkbox"].toggle:checked + label {
+  color: var(--text-dark);
+} */
+
+/* var(--color-dark-1) */
+* {
+  margin: 0;
+  padding: 0;
+}
+div .container {
+  display: flex;
+}
+.header_container {
+  background-color: var(--color-dark-1);
+  height: 2em;
+  color: var(--text-dark);
+  font-family: "BhuTuka Expanded One", cursive;
+  font-family: "Fredoka One", cursive;
+  font-family: "Hubballi", cursive;
+  font-family: "Staatliches", cursive;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_container-light {
+  background-color: var(--color-light-1);
+  color: var(--text-light);
+}
+
+.main_container {
+  background-color: var(--color-dark-2);
+  height: calc(100em - 53.45em);
+  display: flex;
+}
+
+.main_container-light {
+  background-color: var(--color-light-2);
+}
+
+.resister_box {
+  background-color: var(--color-dark-4);
+  margin: auto;
+  height: 550px;
+  width: 886px;
+  box-shadow: 10px 10px 54px -6px rgba(0, 0, 0, 0.75);
+}
+
+.resister_box-light {
+  background-color: var(--color-light-4);
+}
+
+.btn_section {
+  padding: 10px;
+}
+
+.selection {
+  border-style: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  user-select: none;
+  cursor: pointer;
+  padding: 15px 104px;
+  background-color: var(--color-dark-5);
+  color: var(--text-dark);
+  border-radius: 6px;
+}
+
+.selection-light {
+  background-color: var(--color-light-5);
+  color: var(--text-light);
+}
+
+.btn_restart {
+  background-color: var(--color-dark-5);
+  border: none;
+  color: var(--text-dark);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  float: right;
+  border-radius: 6px;
+}
+
+.btn_restart-light {
+  background-color: var(--color-light-5);
+  color: var(--text-light);
+}
+
+.btn_change {
+  background-color: var(--color-dark-5);
+  border: none;
+  color: var(--text-dark);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 6px;
+}
+
+.btn_change-light {
+  background-color: var(--color-light-5);
+  color: var(--text-light);
+}
+
+.resistor_color {
+  height: calc(550px - 150px);
+  width: 884px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+/* .select_color {
+  -webkit-appearance: none;
+  background-color: var(--color-dark-3);
+  border-style: none;
+  height: 130px;
+  width: 50px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+} */
+
+.calculate_output {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 886px;
+  float: left;
+}
+
+#btn-calc {
+  background-color: var(--color-dark-5);
+  border: none;
+  color: var(--text-dark);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 6px;
+}
+
+.btn-light {
+  background-color: var(--color-light-5);
+  color: var(--text-light);
+}
+/* .btn_calulate_5 {
+  background-color: var(--color-dark-5);
+  border: none;
+  color: var(--text-dark);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 6px;
+}
+.btn_calulate_6 {
+  background-color: var(--color-dark-5);
+  border: none;
+  color: var(--text-dark);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 6px;
+} */
+
+.output_section {
+  border-style: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  user-select: none;
+  cursor: pointer;
+  padding: 15px 10px;
+  width: 403px;
+  background-color: var(--color-dark-5);
+  color: var(--text-dark);
+  border-radius: 6px;
+  color: var(--color-dark-1);
+  text-align: center;
+}
+
+.output_section-light {
+  background-color: var(--color-light-5);
+  color: var(--text-light);
+}
+
+.footer_container {
+  display: flex;
+  background-color: var(--color-light-1);
+  height: 5em;
+  color: var(--text-light);
+  justify-content: center;
+  align-items: center;
+  font-family: "BhuTuka Expanded One", cursive;
+  font-family: "Fredoka One", cursive;
+  font-family: "Hubballi", cursive;
+  font-family: "Staatliches", cursive;
+}

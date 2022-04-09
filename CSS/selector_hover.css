@@ -1,0 +1,38 @@
+.color_1:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 10px rgb(7, 7, 7);
+  box-shadow: 0 0 10px rgb(17, 17, 17);
+}
+.color_2:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 10px rgb(7, 7, 7);
+  box-shadow: 0 0 10px rgb(17, 17, 17);
+}
+.color_3:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 10px rgb(7, 7, 7);
+  box-shadow: 0 0 10px rgb(17, 17, 17);
+}
+.color_4:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 10px rgb(7, 7, 7);
+  box-shadow: 0 0 10px rgb(17, 17, 17);
+}
+.color_5:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 10px rgb(7, 7, 7);
+  box-shadow: 0 0 10px rgb(17, 17, 17);
+}
+.color_6:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 10px rgb(7, 7, 7);
+  box-shadow: 0 0 10px rgb(17, 17, 17);
+}
+
+.main-light {
+  background-color: var(--color-light-4);
+}
+
+.select-b-light {
+  background-color: var(--color-light-3);
+}
